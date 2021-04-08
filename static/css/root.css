@@ -1,0 +1,68 @@
+.content {
+    width: 1200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoTitle {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+}
+
+.logo img { 
+    width: 100px;
+    height: 100px;
+}
+
+.title h3 {
+    font-size: 200%;
+}
+
+.logInOutRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+    align-items: center;
+}
+
+.login {
+    width: 200px;
+    border: 5px solid black;
+    text-align: center;
+
+}
+
+.register {
+    width: 200px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.register a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.mainContent {
+    width: 1200px;
+    height: 3000px;
+    background-color: pink;
+}
